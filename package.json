@@ -4,7 +4,7 @@
     "description": "rutas.",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "mocha",
         "start": "nodemon index.js"
     },
     "repository": {
@@ -20,6 +20,7 @@
         "body-parser": "^1.18.3",
         "express": "^4.16.3",
         "glob": "^7.1.3",
+        "mocha": "^5.2.0",
         "mongodb": "^3.1.6",
         "morgan": "^1.9.1",
         "nodemon": "^1.18.4",

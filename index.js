@@ -11,11 +11,11 @@ app.use(logger("dev"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-require("./routes/views")(app);
-require("./routes/api")(app);
+require("./routes")(app);
 
-require("./routes/special")(app);
-
+app.get("*", (req, res) => {
+    res.send("Hola, soy Express!");
+});
 
 async function initMongo() {
     const db = await mongo.connect();
@@ -38,11 +38,7 @@ function closeApp() {
 
 }
 
-
-app.get("*", (req, res) => {
-    res.send("Hola, soy Express!");
-});
-
-app.listen(3000, () => {
-    console.log("Express ha iniciado correctamente!");
-});
+initMongo()
+    .catch((err) => {
+        console.log(err);
+    });
