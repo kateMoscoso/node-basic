@@ -1,1 +1,14 @@
 ryan Dahl
+
+
+major es un cambio grande en nuestro proyecto y afectaría al primer digito de nuestra versión pasando de 1.0.0 a 2.0.0.
+minor es para aquellos cambios que agregan funcionalidades sin dejar de ser compatibles con versiones anteriores, estos cambios afectan al segundo digito de nuestra versión pasando de 1.0.0 a 1.1.0.
+patch se utiliza para corregir errores pequeños en nuestro proyecto y afecta al tercer digito de nuestra versión pasando de 1.0.0 a 1.0.1.
+
+
+node --prof index.js
+node --prof-process isolate.log > output.txt
+
+sudo apt install apache2-utils -y
+
+hacemos npm run start y lanzamos el siguiente comando 
