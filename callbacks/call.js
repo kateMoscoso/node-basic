@@ -12,6 +12,6 @@ module.exports = {
             setTimeout(()=>{
                 resolve(nombre);
             }, 5000); 
-        })
+        }) 
     }
 }
