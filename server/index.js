@@ -2,7 +2,7 @@ const http = require('http')
 const fs = require('fs')
 
 const server = http.createServer((req, res) => {
-	fs.readFile("./server/my_page.html", (err, data) => {
+	fs.readFile("./server/my_page2.html", (err, data) => {
 		if(err){console.error(err); return;}
 		res.end(data)
 	})

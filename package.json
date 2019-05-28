@@ -6,7 +6,9 @@
     "scripts": {
         "test": "mocha",
         "start": "nodemon index.js",
-        "build-doc": "jsdoc -c jsdoc.json"
+        "build-doc": "jsdoc -c jsdoc.json",
+        "fill-db": "node ./db/populate --fill",
+        "clear-db": "node ./db/populate --clear"
     },
     "repository": {
         "type": "git",
