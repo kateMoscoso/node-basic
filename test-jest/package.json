@@ -5,10 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "jest",
-        "start": "nodemon index.js",
-        "build-doc": "jsdoc -c jsdoc.json",
-        "fill-db": "node ./db/populate --fill",
-        "clear-db": "node ./db/populate --clear"
+        "test:coverage": "jest --coverage"
     },
     "repository": {
         "type": "git",

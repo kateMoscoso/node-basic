@@ -1,1 +1,3 @@
-export const numbers = (a, b) => a + b;
+export const numbers = (a, b) => {
+    return a + b;
+}

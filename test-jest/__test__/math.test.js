@@ -1,10 +1,20 @@
-import { sumar, multiplicar } from '../math';
+import { sumar, multiplicar, restar, dividir } from '../math.js';
 
-describe('Calculos matematicos', () => {
-  test('Prueba de sumas', () => {
-    expect(sumar(1, 1)).toBe(2);
-  });
-  test('Multiplicar ', () => {
-    expect(multiplicar(2, 2)).toBe(4);
-  });
+describe('Calculos matematicos', () =>{
+    test('Prueba de sumas', ()=> {
+        expect(sumar(1,1)).toBe(2);
+    });
+    test('Multiplicar ', () => {
+        expect(multiplicar(2,2)).toBe(4);
+    });
+    describe('Restar', () => {
+        test('Prueba de restar', () => {
+          expect(restar(2,1)).toBe(1);
+        });
+      });
+    describe('Dividir', () => {
+        test('Prueba de dividir', () => {
+            expect(dividir(10,2)).toBe(5);
+        });
+    });
 });
