@@ -1,10 +1,10 @@
 {
-    "name": "node-basics",
+    "name": "node-test-jest",
     "version": "1.0.0",
-    "description": "rutas.",
+    "description": "node test with jest",
     "main": "index.js",
     "scripts": {
-        "test": "mocha",
+        "test": "jest",
         "start": "nodemon index.js",
         "build-doc": "jsdoc -c jsdoc.json",
         "fill-db": "node ./db/populate --fill",
@@ -24,7 +24,6 @@
         "express": "^4.17.1",
         "glob": "^7.1.6",
         "jsdoc": "^3.6.3",
-        "mocha": "^6.2.2",
         "mongodb": "^3.3.4",
         "mongoose": "^5.7.11",
         "morgan": "^1.9.1",
@@ -33,11 +32,14 @@
         "yargs": "^15.0.2"
     },
     "devDependencies": {
+        "babel-jest": "^24.9.0",
+        "babel-polyfill": "^6.26.0",
         "eslint": "^6.6.0",
         "eslint-config-airbnb-base": "^14.0.0",
         "eslint-plugin-import": "^2.18.2",
         "grunt": "^1.0.4",
         "grunt-contrib-uglify": "^4.0.1",
+        "jest": "^24.9.0",
         "jshint": "^2.10.3"
     }
 }
