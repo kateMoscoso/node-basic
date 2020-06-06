@@ -2,3 +2,5 @@ node_modules/
 coverage/
 *.mp4
 package-lock.json
+dist
+.cache
