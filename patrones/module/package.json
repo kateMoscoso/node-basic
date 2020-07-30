@@ -1,0 +1,16 @@
+{
+    "name": "pattern-module",
+    "version": "0.0.1",
+    "author": "kate ",
+    "description": "Pattern design",
+    "dependencies": {
+        "bcrypt-nodejs": "^0.0.3"
+    },
+    "devDependencies": {
+        "grunt": "^1.2.1",
+        "grunt-contrib-jshint": "^2.1.0",
+        "grunt-contrib-watch": "^1.1.0",
+        "mocha": "^8.0.1",
+        "should": "^13.2.3"
+    }
+}
