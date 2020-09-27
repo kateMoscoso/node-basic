@@ -1,0 +1,6 @@
+const csv = `"public_id","folder","filename","format","version","resource_type","type","created_at","uploaded_at","bytes","backup_bytes","width","height","aspect_ratio","pixels","url","secure_url","status","access_mode","access_control","etag","created_by/0","uploaded_by/0"
+"yellow_maple_leaf-1366x768_aoit8p","","yellow_maple_leaf-1366x768_aoit8p","jpg",1580932133,"image","upload","2020-02-05T19:48:53+00:00","2020-02-05T19:48:53+00:00",284542,0,1366,768,1.77865,1049088,"http://res.cloudinary.com/dbnuvqzms/image/upload/v1580932133/yellow_maple_leaf-1366x768_aoit8p.jpg","https://res.cloudinary.com/dbnuvqzms/image/upload/v1580932133/yellow_maple_leaf-1366x768_aoit8p.jpg","active","public",,"e2ba97ddebd037832f57e6956bbb0e1f",,
+"wwe_randy_orton-1680x1050_d1wbxy","","wwe_randy_orton-1680x1050_d1wbxy","jpg",1580932156,"image","upload","2020-02-05T19:49:16+00:00","2020-02-05T19:49:16+00:00",823128,0,1680,1050,1.6,1764000,"http://res.cloudinary.com/dbnuvqzms/image/upload/v1580932156/wwe_randy_orton-1680x1050_d1wbxy.jpg","https://res.cloudinary.com/dbnuvqzms/image/upload/v1580932156/wwe_randy_orton-1680x1050_d1wbxy.jpg","active","public",,"a42fe829f735d125c8c32f668bb9d3b2",,`
+module.exports = {
+  csv,
+};
