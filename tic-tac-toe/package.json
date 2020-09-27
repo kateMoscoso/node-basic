@@ -1,0 +1,32 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "eslint": "^4.18.2",
+    "js-yaml": "^3.13.1",
+    "mem": "^4.0.0",
+    "react": "^16.5.1",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.5.1",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "set-value": "^2.0.1",
+    "shuffle-array": "^1.0.1",
+    "socket.io-client": "^2.1.1",
+    "webpack-dev-server": "^3.1.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "redux-devtools-extension": "^2.13.5"
+  }
+}
